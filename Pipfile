@@ -7,6 +7,12 @@ name = "pypi"
 flask = "*"
 
 [dev-packages]
+flake8 = "*"
+pytest = "*"
+pytest-flask = "*"
+codecov = "*"
+coverage = "*"
+flask-shell-ipython = "*"
 
 [requires]
 python_version = "3.9"
