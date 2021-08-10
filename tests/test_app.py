@@ -10,3 +10,5 @@ def test_config_is_loader(config):
 
 def test_request_return_404(client):
     assert client.get('/').status_code == 404
+
+
