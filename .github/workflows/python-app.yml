@@ -5,8 +5,7 @@ name: Python application
 defaults:
   run:
     shell: bash
-    working-directory: ./delivery
-    
+        
 on:
   push:
     branches: [ main ]
