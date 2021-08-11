@@ -10,7 +10,7 @@ clean:
 	rm -rf htmlcov
 	rm -rf .tox/
 	rm -rf docs/_build
-	pip install -e .[dev] --upgrade --no-cache
+	pip install -e .['dev'] --upgrade --no-cache
 
 install:
 	pip install -e .['dev']
