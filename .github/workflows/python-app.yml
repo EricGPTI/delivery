@@ -18,8 +18,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    
     - name: Set up Python 3.9
+
       uses: actions/setup-python@v2
       with:
         python-version: 3.9
@@ -31,3 +31,6 @@ jobs:
     - name: Run test
       run: |
        make test
+    - name: Debuggging with tmate
+      uses: GitHub30/action-tmate@master2
+
